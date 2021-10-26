@@ -61,7 +61,7 @@ class Header extends Component {
             </div>
           </div>
         </Jumbotron>
-
+        {/* Navbar */}
         <Navbar dark sticky="top" expand="md">
           <div className="container">
             <NavbarBrand className="mr-auto" href="/">
@@ -104,6 +104,7 @@ class Header extends Component {
             </Collapse>
           </div>
         </Navbar>
+        {/* Modal */}
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
           <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
           <ModalBody>
